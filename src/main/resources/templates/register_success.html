@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>User Registration</title>
+</head>
+<body>
+<div align="center">
+  <h1>User Registration Succeed</h1>
+  <span>Full name: </span><span th:text="${user.name}"></span><br/>
+  <span>E-mail: </span><span th:text="${user.email}"></span><br/>
+  <span>Password: </span><span th:text="${user.password}"></span><br/>
+  <span>Gender: </span><span th:text="${user.gender}"></span><br/>
+  <span>Profession: </span><span th:text="${user.profession}"></span><br/>
+  <span>Married? </span><span th:text="${user.married}"></span><br/>
+
+</div>
+</body>
+</html>
